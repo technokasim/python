@@ -29,9 +29,8 @@ def login_facebook():
 
 
 def group_post():
-    # driver.get('https://www.facebook.com/groups/770478273851370')
     post_msg = "text"
-    groups_links_list = ['258984621150683', '1753057948265688']
+    groups_links_list = ['258984621150683', '1753557948265688']
     sleep(5)
     for i in range(len(groups_links_list)):
         link = 'https://www.facebook.com/groups/' + groups_links_list[i]
